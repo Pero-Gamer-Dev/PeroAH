@@ -1,0 +1,20 @@
+name: PeroAH
+version: 1.0.0
+main: com.peroah.PeroAH
+description: An auction house plugin for your server
+authors:
+  - Pero-Gamer-Dev
+
+commands:
+  auctionhouse:
+    description: Open the auction house
+    aliases: [ah, auction]
+    usage: /auctionhouse [subcommand]
+
+permissions:
+  peroah.use:
+    description: Allow players to use the auction house
+    default: true
+  peroah.admin:
+    description: Allow access to admin commands
+    default: op

@@ -1,0 +1,22 @@
+# PeroAH Configuration
+
+# Auction settings
+auction:
+  # Maximum duration for an auction in hours
+  max-duration: 7
+  # Minimum starting price
+  min-price: 100
+  # Listing fee (percentage of starting price)
+  listing-fee: 0.05
+
+# Database settings
+database:
+  type: "file" # or "mysql"
+  file-path: "./plugins/PeroAH/data.yml"
+
+# Messages
+messages:
+  prefix: "&6[AuctionHouse] "
+  auction-created: "&aAuction created successfully!"
+  auction-expired: "&cYour auction has expired!"
+  bid-placed: "&aYour bid has been placed!"
