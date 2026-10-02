@@ -1,6 +1,6 @@
 # PeroAH
 
-A Bukkit/Spigot plugin for auction house functionality.
+A Bukkit/Spigot plugin for auction house functionality for Paper 26.2
 
 ## Features
 - Auction creation and bidding
