@@ -1,0 +1,5 @@
+# Default messages
+welcome: "Welcome to PeroAH!"
+auction-created: "Auction created!"
+auction-cancelled: "Auction cancelled."
+new-bid: "A new bid has been placed."
